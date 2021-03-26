@@ -3,6 +3,8 @@
 A single file CSS framework for simple blogs and markdown generated html.
 Inspired by [newcss](https://github.com/xz/new.css)
 
+![Preview](public/img/screenshot.png)
+
 ## ✔️ Requirements
 
 - Any actual internet browser
