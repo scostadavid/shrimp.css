@@ -2,21 +2,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&display=swap');
 
 :root {
+
     /* Fonts */
     --ft-primary: 'Open Sans', sans-serif;
-    /* Font Colors */
-    --ft-color-primary: #202020;
-    --ft-color-link: #3377ee;
-    /* Bg Colors */
-    --bg-color-primary: #fffffc;
-    /* Blockquote */
-    --bg-color-blockquote: #fffffe;
-    --border-left-color-blockquote: #231a24;
-    /* All */
-    --border-line-color: #bdbdbd;
     
-    /* Dark theme */
-    /* bg: #18181e */
+    /* Font Colors */
+    --ft-color-light: #ffe;
+    --ft-color-dark: #202020;
+    --ft-color-link: #3377ee;
+    
+    /* Background Colors */
+    --bg-color-light: #fffffc;
+    
+    /* General colors: (Based on bootstrap color scheme) */
+    --color-primary: #5855fa;
+    --color-secondary: #b4b0eb;
+    --color-success: #70f886;
+    --color-danger: #fc6666;
+    --color-warning: #f2f557;
+
+    /* Misc */
+    /* Blockquote */
+    --border-left-color-blockquote: #231a24;
+    --border-line-color: #bdbdbd8c;
 }
 
 * {
@@ -40,7 +48,7 @@ body {
 
 
     /* Colors */
-    background: none var(--bg-color-primary);
+    background: none var(--bg-color-light);
     
     /* Text and misc */
     word-break: break-word;
@@ -132,7 +140,7 @@ h1, h2, h3, h4, h5, h6, summary, p, input, a {
 }
 
 h1, h2, h3, h4, h5, h6, summary, p, input {
-    color: var(--ft-color-primary);
+    color: var(--ft-color-dark);
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -211,7 +219,7 @@ ul, ol, dl, dd {
 
 li, dl {
     font-family: var(--ft-primary);
-    color: var(--ft-color-primary);
+    color: var(--ft-dark);
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
 }
@@ -231,12 +239,9 @@ dd::before {
 blockquote {
     margin-top: 2rem;
     padding: 1.2rem 1.2rem 1rem 1.2rem;
-
-    background-color: var(--bg-color-blockquote);
     
     font-size: 1rem;
     font-family: var(--ft-primary);
-    /* font-style: italic; */
     
     border: 2px solid var(--border-line-color); 
     border-left: 3px solid var(--border-left-color-blockquote);
@@ -285,7 +290,7 @@ caption {
 }
 
 thead th, tfoot th {
-    color: var(--ft-color-primary);
+    color: var(--ft-color-dark);
     background-color: #e9e9e9;
 }
 
@@ -306,7 +311,7 @@ tfoot th:last-child {
 }
 
 td, th {
-    color: var(--ft-color-primary);
+    color: var(--ft-color-dark);
     text-align: left;
     padding: 10px;
 }
