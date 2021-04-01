@@ -84,6 +84,22 @@ footer {
 /* ======================  */
 
 /* ========== Article header =========== */
+article > header {
+    margin-bottom: 2rem;
+    padding: .5rem 0;
+    border-bottom: 1px solid var(--border-line-color);
+}
+
+article > h1 {
+    margin-bottom: 2rem;
+    padding: .5rem 0;
+    border-bottom: 1px solid var(--border-line-color);
+}
+
+article > header > h1 {
+    font-weight: 800;
+}
+
 article > header > div {
     display: flex;
 }
@@ -151,15 +167,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
 }
 
-.heading__border-bottom {
+/* .heading__border-bottom {
     margin-bottom: 2rem;
     padding: .5rem 0;
     border-bottom: 1px solid var(--border-line-color);
-}
+} */
 
-.heading {
-    font-weight: 800;
-}
 
 h1 {
     font-size: 2.50rem;
