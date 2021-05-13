@@ -286,6 +286,15 @@ dd::before {
 
 /* ********************   Special Tags   ******************** */
 
+/* Code */
+pre {
+    border-radius: 4px;
+    /* padding: 1rem; */
+    padding: 1rem 1rem 0.7rem;
+    color: #fff;
+    background-color: #08090a;
+    
+}
 
 /* Bloquote */
 
