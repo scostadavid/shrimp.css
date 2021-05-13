@@ -416,11 +416,18 @@ input {
 
 input[type="button"],
 input[type="submit"],
+input[type="reset"],
 button {
     padding: 0.5rem;
-    border: 1px solid rgba(46, 46, 46, 0.486);
+    border: none;
+    /* border: 1px solid rgba(46, 46, 46, 0.486); */
     /* box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.274); */
+    width: 6rem;
+    height: 2.7rem;
     transition: .5s;
+    background-color: var(--color-primary);
+    color: #fff;
+
 }
 
 
