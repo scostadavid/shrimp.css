@@ -159,6 +159,7 @@ h6,
 summary,
 p,
 input,
+figcaption,
 a {
     font-family: var(--ft-primary);
     font-weight: normal;
@@ -237,9 +238,14 @@ a {
 
 figure {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+figcaption {
+    margin: 1rem auto 1.2rem;
+    font-size: 0.9rem;
 }
 
 img {
