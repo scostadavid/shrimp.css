@@ -1,6 +1,8 @@
 /* font-family: 'Open Sans', sans-serif; */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
 :root {
     /* Fonts */
     --ft-primary: 'Open Sans', sans-serif;
@@ -289,11 +291,15 @@ dd::before {
 /* Code */
 pre {
     border-radius: 4px;
-    /* padding: 1rem; */
     padding: 1rem 1rem 0.7rem;
     color: #fff;
     background-color: #08090a;
     
+}
+
+pre code {
+    font-family: 'Fira Code', monospace;
+    font-size: .8rem;
 }
 
 /* Bloquote */

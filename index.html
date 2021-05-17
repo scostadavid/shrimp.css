@@ -75,21 +75,21 @@
 
         <article>
             <h1>Code</h1>
-            <p>Some c language code snippet</p>
+            <p>Some js language code snippet</p>
             <pre>
                 <code>
-#include "stdio.h"
-int main() {
-    printf("Hello world\n");
-    return 0;
+function randomHex() {
+    return "#" + ((Math.random() * 0xffffff) >> 0).toString(16);
 }
+
+console.log(randomHex());
                 </code>
             </pre>
 
             <p>Some bash command snippet</p>
             <pre>
                 <code>
-sudo chmod +x .
+tmux -a -t 0
                 </code>
             </pre>
         </article>
