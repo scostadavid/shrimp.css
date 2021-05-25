@@ -294,7 +294,9 @@ pre {
     padding: 1rem 1rem 0.7rem;
     color: #fff;
     background-color: #08090a;
-    
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;    
 }
 
 pre code {
