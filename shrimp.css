@@ -51,7 +51,7 @@ body {
 /* Nav */
 
 header {
-    padding: 1rem 0rem 2rem 0rem;
+    padding: 1rem 0rem 1rem 0rem;
 }
 
 header>h1 {
@@ -453,6 +453,35 @@ button {
 @media (max-width: 576px) {
     main {
         max-width: 80em;
+    }
+
+    h1 {
+        font-size: 2rem;
+        display: flex;
+    }
+    
+    h2 {
+        font-size: 1.7rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    h4 {
+        font-size: 1.4rem;
+    }
+    
+    h5 {
+        font-size: 1.2rem;
+    }
+    
+    h6 {
+        font-size: 1rem;
+    }
+
+    p, a {
+        font-size: .9rem;
     }
 }
 
