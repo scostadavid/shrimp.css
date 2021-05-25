@@ -146,7 +146,7 @@ table,
 textarea,
 ul,
 video {
-    margin-bottom: 1rem;
+    margin-bottom: .7rem;
 }
 
 
@@ -448,64 +448,48 @@ button {
 }
 
 
-/* Small devices (landscape phones, 576px and up) */
-
+/* Small devices <= 576 */
 @media (max-width: 576px) {
-    main {
-        max-width: 80em;
-    }
+
+    main { max-width: 80em; }
 
     h1 {
         font-size: 2rem;
         display: flex;
     }
     
-    h2 {
-        font-size: 1.7rem;
-    }
+    h2 { font-size: 1.7rem; }
     
-    h3 {
-        font-size: 1.5rem;
-    }
+    h3 { font-size: 1.5rem; }
     
-    h4 {
-        font-size: 1.4rem;
-    }
+    h4 { font-size: 1.4rem; }
     
-    h5 {
-        font-size: 1.2rem;
-    }
+    h5 { font-size: 1.2rem; }
     
-    h6 {
-        font-size: 1rem;
-    }
+    h6 { font-size: 1rem; }
 
-    p, a {
-        font-size: .9rem;
-    }
+    p, a { font-size: .9rem; }
+
+    pre code { font-size: .7rem; }
+
+    article>header>div { flex-direction: column; }    
 }
 
-
 /* Medium devices (tablets, 768px and up) >= 768 */
-
 @media (min-width: 768px) {
     main {
         max-width: 70em;
     }
 }
 
-
 /* Large devices (desktops, 992px and up) >= 992 */
-
 @media (min-width: 992px) {
     main {
         max-width: 60em;
     }
 }
 
-
 /* >= 1200px */
-
 @media (min-width: 1200px) {
     main {
         max-width: 50em;
