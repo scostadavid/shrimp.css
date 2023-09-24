@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="shrimp.css, a dead simple css">
     <meta name="keywords" content="HTML, CSS, Responsive">
-    <meta name="author" content="David S. Costa">
+    <meta name="author" content="scostadavid">
 
     <link rel="stylesheet" href="shrimp.css">
     <link rel="shortcut icon" href="public/favicon.ico" type="image/x-icon">
@@ -20,9 +20,8 @@
         <h1>shrimp.css 🦐</h1>
         <nav>
             <a href="index.html">Home</a> •
-            <a href="usage.html">Usage</a> •
-            <a href="#">Components</a> •
-            <a href="https://github.com/ds-costa/shrimp-css" target="_blank" rel=”noreferrer noopener”>Github</a>
+            <a href="pages/components.html">Components</a> •
+            <a href="https://github.com/scostadavid/shrimp.css" target="_blank" rel=”noreferrer noopener”>Github</a>
         </nav>
     </header>
 
@@ -36,209 +35,86 @@
                 <h1>A simple responsive css!</h1>
                 <p>A single file css framework for simple blogs.</p>
                 <div>
-                    <p>David Costa</p>
+                    <p>scostadavid</p>
                     <p>31 de Mar.</p>
-                    <p>Updated on Mar 31, 2021</p>
+                    <p>Updated on Set 24, 2023</p>
                 </div>
             </header>
 
-            <p>                
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, asperiores recusandae velit nam tenetur ratione sapiente inventore earum tempore molestias amet alias sit beatae nulla nobis, cum itaque perferendis. Voluptas. Iure labore modi porro tenetur,
-                sint, magni ipsum consequatur et voluptatem est perferendis quisquam pariatur reiciendis repellendus hic mollitia dolores nihil quam, fuga nesciunt quia. Officia, dolorum assumenda? Sed, distinctio!
+            <p>
+                shrimp.css is a open source css framework for markdown generated blog pages styling
             </p>
 
-        </article>
+            <h2>Usage</h2>
 
-        <article>
-            <p><mark>Lorem ipsum</mark>, dolor sit amet consectetur <mark>adipisicing elit.</mark> Porro, eveniet odit. Non fuga reprehenderit maxime dolor quam! Repellat neque quisquam blanditiis accusamus at architecto! Nisi similique numquam a veritatis
-                enim.</p>
-            <h2>heading 2</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, eveniet odit. Non fuga reprehenderit maxime dolor quam! Repellat neque quisquam blanditiis accusamus at architecto! Nisi similique numquam a veritatis enim.</p>
-            <h3>heading 3</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, eveniet odit. Non fuga reprehenderit maxime dolor quam! Repellat neque quisquam blanditiis accusamus at architecto! Nisi similique numquam a veritatis enim.</p>
-            <h4><a href="">heading 4</a></h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, eveniet odit. Non fuga reprehenderit maxime dolor quam! Repellat neque quisquam blanditiis accusamus at architecto! Nisi similique numquam a veritatis enim.</p>
-            <h5>heading 5</h5>
-            <p><a href="">Lorem ipsum</a>, dolor sit amet consectetur adipisicing elit. Porro, eveniet odit. Non fuga reprehenderit maxime dolor quam! Repellat neque quisquam blanditiis accusamus at architecto! Nisi similique numquam a veritatis enim.</p>
-            <h6>heading 6</h6>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, eveniet odit. Non fuga reprehenderit maxime dolor quam! Repellat neque quisquam blanditiis accusamus at architecto! Nisi similique numquam a veritatis enim.</p>
-            <p>Aperte <kbd>ctrl</kbd> + <kbd>c</kbd> para copiar um texto no windows</p>
-        </article>
-
-        <article>
-            <h1>Blockquote</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores natus nam, consectetur architecto magnam nobis non perferendis optio laboriosam culpa provident quas. Rerum nesciunt itaque, quas architecto modi voluptatem eum.</p>
-            <blockquote cite="https://en.wikiquote.org/">
-                Lorem ipsun dolor sit amet<br>
-                <p>– Lorem ipsun</p>
-            </blockquote>
-        </article>
-
-        <article>
-            <h1>Code</h1>
-            <p>Some js language code snippet</p>
-            <pre>
-                <code>
-function randomHex() {
-    return "#" + ((Math.random() * 0xffffff) >> 0).toString(16);
-}
-
-console.log(randomHex());</code>
-            </pre>
-
-            <p>Some bash command snippet</p>
-            <pre>
-                <code>
-tmux -a -t 0</code>
-            </pre>
-        </article>
-
-        <article>
-            <h1>Iframe</h1>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/xBasQG_6p40" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </article>
-
-        <article>
-
-            <h1>Lists</h1>
-            <h4>Tasks</h4>
-            <ul>
-                <li>Buy loaf</li>
-                <li>Buy popcorn</li>
-                <li>Make a cake</li>
-            </ul>
-
-            <h4>Top 3 things cats hate</h4>
             <ol>
-                <li>Bath</li>
-                <li>Dogs</li>
-                <li>Other Cats</li>
-            </ol>
+                <li>Create an HTML document with a basic structure</li>
 
-            <h3>LDescription Lists</h3>
-            <dl>
-                <dt>Coffee</dt>
-                <dd>black hot drink</dd>
-                <dt>Milk</dt>
-                <dd>white cold drink</dd>
-            </dl>
-        </article>
+            <pre>
+                <code>
+&lt!DOCTYPE html&gt
+&lthtml lang="en"&gt
+&lthead&gt
+    &ltmeta charset="UTF-8"&gt
+    &ltmeta http-equiv="X-UA-Compatible" content="IE=edge"&gt
+    &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt
+    &lttitle&gtMy blog&lt/title&gt
+&lt/head&gt
+&ltbody&gt
+
+&lt/body&gt
+&lt/html&gt</code>
+            </pre>
+
+            <li>Download the shrimp.css file</li>
+            <blockquote>
+                <a href="#">Download Link</a>
+            </blockquote>
+
+            <li>Add the shrimp.css file to your project with the link tag</li>
+            <pre>
+<code>&ltlink rel="stylesheet" href="shrimp.css"/&gt</code>
+            </pre>
+            <li>Write some html inside your html body tag</li>
+
+            <pre>
+                <code>
+&ltmain&gt
+
+&ltfigure&gt
+    &ltimg src="public/img/wide.jpg" alt="photo-of-mountain-under-cloudy-sky" srcset=""/&gt
+&lt/figure&gt
+
+&ltarticle&gt
+    &ltheader&gt
+        &lth1&gtA simple responsive css!&lt/h1&gt
+        &ltdiv&gt
+            &ltp&gtby Foo Bar&lt/p&gt
+            &ltp&gt31 de Mar.&lt/p&gt
+            &ltp&gtUpdated on Jun 28, 2023&lt/p&gt
+        &lt/div&gt
+    &lt/header&gt
+    &ltp&gt
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Maxime, asperiores recusandae velit nam tenetur ratione sapiente inventore earum tempore molestias amet alias sit beatae nulla nobis, cum itaque perferendis. Voluptas. Iure labore modi porro tenetur,
+    &lt/p&gt
+&lt/article&gt
+&lt/main&gt</code>
+            </pre>
 
 
-        <article>
-            <h1>Table</h1>
-            <table>
-                <caption>Table caption</caption>
-                <thead>
-                    <th>First Name</th>
-                    <th>Middle Name</th>
-                    <th>Last Name</th>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td>Gordon</td>
-                        <td></td>
-                        <td>Freeman</td>
-                    </tr>
-
-                    <tr>
-                        <td>Lorem</td>
-                        <td>Ipsun</td>
-                        <td>Dolor</td>
-                    </tr>
-
-                    <tr>
-                        <td>Some</td>
-                        <td>Data</td>
-                        <td>Here</td>
-                    </tr>
-
-                    <tr>
-                        <td>Aber</td>
-                        <td>Karf</td>
-                        <td>Derk</td>
-                    </tr>
-                </tbody>
-            </table>
-        </article>
-
-
-        <article>
-
-            <h1>Inputs</h1>
-            <form action="">
-
-                <label for="">Button</label>
-                <input type="button" value="click me">
-
-                <button>click me</button>
-
-                <label for="checkbox">Checkbox</label>
-                <input type="checkbox" name="" id="">
-
-                <label for="">Color</label>
-                <input type="color" name="" id="">
-
-                <label for="date">Date</label>
-                <input type="date" name="" id="">
-
-                <label for="datetime">Date Time</label>
-                <input type="datetime" name="" id="">
-
-                <label for="datetime-local">Datetime Local</label>
-                <input type="datetime-local" name="" id="">
-
-                <label for="email">Email</label>
-                <input type="email" name="" id="">
-
-                <label for="file">File</label>
-                <input type="file" name="" id="">
-
-                <label for="month">Month</label>
-                <input type="month" name="" id="">
-
-                <label for="number">Number</label>
-                <input type="number" name="" id="">
-
-                <label for="password">Password</label>
-                <input type="password" name="" id="">
-
-                <label for="Radio">Radio</label>
-                <input type="radio" name="" id="">
-
-                <label for="range">Range Slider</label>
-                <input type="range" name="" id="">
-
-                <label for="reset">Reset</label>
-                <input type="reset" value="Reset">
-
-                <label for="submit">Submit</label>
-                <input type="submit" value="Submit">
-
-                <label for="">Tel</label>
-                <input type="tel" name="" id="">
-
-                <label for="">Text</label>
-                <input type="text" name="" id="">
-
-                <label for="">Time</label>
-                <input type="time" name="" id="">
-
-                <label for="">url</label>
-                <input type="url" name="" id="">
-
-                <label for="">Week</label>
-                <input type="week" name="" id="">
-
-            </form>
-
+        </ol>
         </article>
     </main>
 
     <!-- Footer -->
     <footer>
-        <p>Made with ☕ and 🥛 by David Costa.</p>
+        <p>
+            Developed by 👨‍💻
+            <a href="https://scostadavid.github.io/" target="_blank" rel="noopener noreferrer">David Costa</a>
+            Check out
+            <a href="https://github.com/scostadavid/shrimp.css" target="_blank" rel="noopener noreferrer">Github</a>
+        </p>
     </footer>
 
 </body>
